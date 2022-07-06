@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODEL PREDICTION</title>
+</head>
+<body>
+    <h1 align="center">MODEL PREDICTION</h1>
+    <form method="post" action="/">
+    <input placeholder="Enter input" style="height:100px;width:auto;font-size:50px;margin-left:600px"
+           name="input" class="input" />
+    <input type="submit" style="height:75px;"/>
+    </form>
+
+{% if result==True %}
+<hr>
+{{ output_text }}
+<hr>
+<br>
+<h2 align="center">Model performance on test data</h2>
+<img src="../static/model_performance.jpg" style="margin-left:200px;">
+<h2 align="center">RandomForestClassifier has the highest accuracy of 79.12% accuracy.</h2>
+{% endif %}
+</body>
+</html>
