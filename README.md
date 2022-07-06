@@ -1,6 +1,6 @@
 # credit-card-risk-prediction-using-flask
-I creeated and deployed a model uding flask
-This model Using Five Classification Algorithims namely
+I created and deployed a model using flask
+This model Uses Five Classification Algorithims namely
 <ol>
 <li>Logistic regresion </li>
 <li>Navie Bayes</li>
